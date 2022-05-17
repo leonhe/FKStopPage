@@ -1,1 +1,15 @@
 * FKStopPag
+🤠 Chrome插件主要是解决网站截流需要再次确认才能直达目标url问题而生，目前可以解决以下网站的截流行为：
++ CSDN
++ 掘金
++ 知乎
++ 增加中....
+  
+** 👐 使用方法
+1.⬇️ 下载Release 对应 =.zip= 包版本解压；
+2.🍢 打开Chrome，输入： =chrome://extensions/=
+3.🤐 点击 =加载已解压的扩展程序= 选择解压目录
+4.🎊 开始享受直达效果吧 :smile:
+
+** ✍️ 怎么增加拦截网站
+先确认是否有修改JS代码的能力，如果有较强的动手能力的可以直接下载代码进行修改增加，反之提交[[https://github.com/leonhe/FKStopPage/issues][Issues]]，也欢迎进行代码的merge请求 🥰。
