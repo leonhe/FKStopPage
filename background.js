@@ -19,7 +19,6 @@ chrome.webNavigation.onBeforeNavigate.addListener(async (data) => {
   let targetURL = decodeURIComponent(matchURLs[1]);
   if (targetURL) {
     let tabID = await getCurrentTab();
-    // tabID.pendingUrl=targetURL;
    await chrome.tabs.update(tabID.id, {
       url: targetURL,
     });
