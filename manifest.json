@@ -1,0 +1,13 @@
+{
+    "name": "FKStopPage",
+    "description": "a stop page for the FK",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "icons": { "16": "icon/icon16.png", "48": "icon/icon128.png", "128": "icon/icon128.png" },
+    "permissions": ["storage", "activeTab", "tabs", "webNavigation", "scripting"],
+    "options_page": "popup.html"
+}
