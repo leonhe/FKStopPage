@@ -8,6 +8,11 @@
     },
 
     "icons": { "16": "icon/icon16.png", "48": "icon/icon128.png", "128": "icon/icon128.png" },
-    "permissions": ["storage", "activeTab", "tabs", "webNavigation", "scripting"],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "webNavigation"
+    ],
     "options_page": "popup.html"
 }
